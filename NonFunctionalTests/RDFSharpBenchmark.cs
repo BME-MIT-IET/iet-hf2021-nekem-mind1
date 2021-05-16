@@ -27,7 +27,7 @@ namespace NonFunctionalTests {
             this.creator = new RDFResource("http://purl.org/dc/terms/creator");
             this.title = new RDFResource("http://purl.org/dc/terms/title");
             this.leonardoDaVinci = new RDFResource("http://dbpedia.org/resource/Leonardo_da_Vinci");
-            FileStream fs = File.OpenRead(@"..\..\..\..\..\..\..\\TestData\szepmuveszeti.n3");
+            FileStream fs = File.OpenRead(@"../../../../../../..//TestData/szepmuveszeti.n3");
             this.museumGraph = RDFGraph.FromStream(RDFModelEnums.RDFFormats.Turtle, fs);
             this.monaLisaCreator = new RDFTriple(this.monaLisa, this.creator, this.leonardoDaVinci);
             this.monaLisaTitle = new RDFPlainLiteral("Mona Lisa");
