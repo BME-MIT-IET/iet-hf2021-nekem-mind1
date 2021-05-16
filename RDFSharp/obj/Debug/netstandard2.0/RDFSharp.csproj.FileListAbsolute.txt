@@ -1,0 +1,11 @@
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.xml
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.deps.json
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.dll
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.pdb
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.csprojAssemblyReference.cache
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.AssemblyInfoInputs.cache
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.AssemblyInfo.cs
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.csproj.CoreCompileInputs.cache
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.sourcelink.json
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.dll
+C:\Work\IET\Hazi2\iet-hf2021-nekem-mind1\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.pdb
