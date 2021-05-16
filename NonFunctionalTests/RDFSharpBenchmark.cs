@@ -22,7 +22,6 @@ namespace NonFunctionalTests {
         RDFTriple monaLisaCreator;
         RDFLiteral monaLisaTitle;
 
-
         public RDFSharpBenchmark() {
             this.monaLisa = new RDFResource("http://www.wikidata.org/entity/Q12418");
             this.creator = new RDFResource("http://purl.org/dc/terms/creator");
@@ -32,6 +31,7 @@ namespace NonFunctionalTests {
             this.museumGraph = RDFGraph.FromStream(RDFModelEnums.RDFFormats.Turtle, fs);
             this.monaLisaCreator = new RDFTriple(this.monaLisa, this.creator, this.leonardoDaVinci);
             this.monaLisaTitle = new RDFPlainLiteral("Mona Lisa");
+            
         }
 
         [Benchmark]
@@ -56,6 +56,15 @@ namespace NonFunctionalTests {
         [Benchmark]
         public void AddRDFTriple() {
             this.museumGraph.AddTriple(monaLisaCreator);
+        }
+
+        [Benchmark]
+        public void RDFGraphToString() {
+            this.museumGraph.ToString();
+        }
+        [Benchmark]
+        public void RDFGraphToDataTable() {
+            this.museumGraph.ToDataTable();
         }
     }
 }
