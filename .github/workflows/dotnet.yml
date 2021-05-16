@@ -23,8 +23,6 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Unit test
-      run: dotnet test RDFSharpTests/RDFSharpTests.csproj /p:CollectCoverage=true
     - name: Coverage with coveralls.io
       uses: coverallsapp/github-action@master
       with:
