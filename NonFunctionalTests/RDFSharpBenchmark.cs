@@ -15,11 +15,15 @@ namespace NonFunctionalTests {
     public class RDFSharpBenchmark {
 
     
-        // public RDFVariable actor;
+        
         [Benchmark]
         public void CreateRDFVariable() {
             RDFVariable actor = new RDFVariable("actor");
         }
 
+        [Benchmark]
+        public void CreateRDFResource() {
+            RDFResource actor = new RDFResource("http://www.wikidata.org/entity/Q12418");
+        }
     }
 }
