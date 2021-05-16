@@ -838,6 +838,15 @@
           "ref/netstandard1.3/System.Console.dll": {}
         }
       },
+      "System.Data.DataSetExtensions/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Data.DataSetExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {}
+        }
+      },
       "System.Diagnostics.Debug/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1946,6 +1955,19 @@
         },
         "runtime": {
           "lib/netstandard1.1/Xunit.SkippableFact.dll": {}
+        }
+      },
+      "RDFSharp/2.23.1": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Data.DataSetExtensions": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/RDFSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RDFSharp.dll": {}
         }
       }
     }
@@ -3318,6 +3340,25 @@
         "ref/xamarinwatchos10/_._",
         "system.console.4.3.0.nupkg.sha512",
         "system.console.nuspec"
+      ]
+    },
+    "System.Data.DataSetExtensions/4.5.0": {
+      "sha512": "221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
+      "type": "package",
+      "path": "system.data.datasetextensions/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/_._",
+        "lib/netstandard2.0/System.Data.DataSetExtensions.dll",
+        "ref/net45/_._",
+        "ref/netstandard2.0/System.Data.DataSetExtensions.dll",
+        "system.data.datasetextensions.4.5.0.nupkg.sha512",
+        "system.data.datasetextensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Diagnostics.Debug/4.3.0": {
@@ -6574,12 +6615,18 @@
         "xunit.skippablefact.1.3.12.nupkg.sha512",
         "xunit.skippablefact.nuspec"
       ]
+    },
+    "RDFSharp/2.23.1": {
+      "type": "project",
+      "path": "../RDFSharp/RDFSharp.csproj",
+      "msbuildProject": "../RDFSharp/RDFSharp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "FluentAssertions >= 5.10.3",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "RDFSharp >= 2.23.1",
       "SpecFlow.Plus.LivingDocPlugin >= 3.7.10",
       "SpecFlow.xUnit >= 3.7.38",
       "xunit >= 2.4.1",
@@ -6610,7 +6657,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/RDFSharp/RDFSharp.csproj": {
+              "projectPath": "/Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/RDFSharp/RDFSharp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,3 +1,14 @@
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/bin/Debug/netstandard2.0/RDFSharp.xml
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/bin/Debug/netstandard2.0/RDFSharp.deps.json
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/bin/Debug/netstandard2.0/RDFSharp.dll
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/bin/Debug/netstandard2.0/RDFSharp.pdb
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/obj/Debug/netstandard2.0/RDFSharp.csprojAssemblyReference.cache
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/obj/Debug/netstandard2.0/RDFSharp.AssemblyInfoInputs.cache
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/obj/Debug/netstandard2.0/RDFSharp.AssemblyInfo.cs
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/obj/Debug/netstandard2.0/RDFSharp.csproj.CoreCompileInputs.cache
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/obj/Debug/netstandard2.0/RDFSharp.sourcelink.json
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/obj/Debug/netstandard2.0/RDFSharp.dll
+/Users/guszty/Downloads/iet-hf2021-nekem-mind1-bdd/RDFSharp/obj/Debug/netstandard2.0/RDFSharp.pdb
 /Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/RDFSharp/bin/Debug/netstandard2.0/RDFSharp.xml
 /Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/RDFSharp/bin/Debug/netstandard2.0/RDFSharp.deps.json
 /Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/RDFSharp/bin/Debug/netstandard2.0/RDFSharp.dll
