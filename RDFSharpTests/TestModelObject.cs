@@ -7,34 +7,29 @@ namespace RDFSharpTests
 {
     static class TestModelObject
     {        
-        public static List<string> validURIStrings = new List<string>(){
-            "https://en.wikipedia.org/wiki/Joseph_Haydn",
-            "https://en.wikipedia.org/wiki/Elizabeth_II",
-            "https://en.wikipedia.org/wiki/Magnus_Carlsen"
-        };
-        public static List<RDFResource> subjectResources = new List<RDFResource>()
+        public static List<RDFResource> subRes = new List<RDFResource>()
         {
-            new RDFResource(validURIStrings[0]),
-            new RDFResource(validURIStrings[1]),
-            new RDFResource(validURIStrings[2])
+            new RDFResource("https://en.wikipedia.org/wiki/Isaac_Newton"),
+            new RDFResource("https://en.wikipedia.org/wiki/Viktor_Orb%C3%A1n"),
+            new RDFResource("https://en.wikipedia.org/wiki/Antonio_Vivaldi")
         };
-        public static List<RDFResource> predicateResources = new List<RDFResource>()
+        public static List<RDFResource> predRes = new List<RDFResource>()
         {
             new RDFResource("http://xmlns.com/foaf/0.1/age"),
             new RDFResource("http://xmlns.com/foaf/0.1/name"),
             new RDFResource("http://xmlns.com/foaf/0.1/birthday")
         };
-        public static List<RDFLiteral> objectLiterals = new List<RDFLiteral>()
+        public static List<RDFLiteral> obj = new List<RDFLiteral>()
         {
-            new RDFTypedLiteral("95", RDFModelEnums.RDFDatatypes.XSD_INTEGER),
-            new RDFPlainLiteral("Joseph Haydn", "en-US"),
-            new RDFPlainLiteral("11-30")
+            new RDFTypedLiteral("84", RDFModelEnums.RDFDatatypes.XSD_INTEGER),
+            new RDFPlainLiteral("Isaac newton", "en-US"),
+            new RDFPlainLiteral("03-04")
         };
         public static List<RDFTriple> triples = new List<RDFTriple>()
         {
-            new RDFTriple(subjectResources[0], predicateResources[0], objectLiterals[0]),
-            new RDFTriple(subjectResources[1], predicateResources[1], objectLiterals[1]),
-            new RDFTriple(subjectResources[2], predicateResources[2], objectLiterals[2])
+            new RDFTriple(subRes[0], predRes[0], obj[0]),
+            new RDFTriple(subRes[1], predRes[1], obj[1]),
+            new RDFTriple(subRes[2], predRes[2], obj[2])
         };
     }
 }
