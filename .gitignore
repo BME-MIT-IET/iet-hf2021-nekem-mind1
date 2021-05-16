@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/NonFunctionalTests/bin
+/NonFunctionalTests/obj
+/RDFSharp/bin
+/RDFSharp/obj
+/.vs
