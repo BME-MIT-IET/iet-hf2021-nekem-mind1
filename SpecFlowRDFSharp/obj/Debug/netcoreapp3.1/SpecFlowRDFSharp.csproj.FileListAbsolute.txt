@@ -1,0 +1,4 @@
+/Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/SpecFlowRDFSharp/obj/Debug/netcoreapp3.1/SpecFlowRDFSharp.csprojAssemblyReference.cache
+/Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/SpecFlowRDFSharp/obj/Debug/netcoreapp3.1/SpecFlowRDFSharp.AssemblyInfoInputs.cache
+/Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/SpecFlowRDFSharp/obj/Debug/netcoreapp3.1/SpecFlowRDFSharp.AssemblyInfo.cs
+/Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/SpecFlowRDFSharp/obj/Debug/netcoreapp3.1/SpecFlowRDFSharp.csproj.CoreCompileInputs.cache

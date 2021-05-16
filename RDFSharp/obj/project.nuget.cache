@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "cAE/Cr+RAPebK0MrorZ7sg+BiVp7h8qVUq9L8y1eJ0J7TJK1gvFWvpWVZVsLgNFmheXOigZiG4BkMT6zY7PHEg==",
+  "success": true,
+  "projectFilePath": "/Users/guszty/Documents/GitHub/iet-hf2021-nekem-mind1/RDFSharp/RDFSharp.csproj",
+  "expectedPackageFiles": [
+    "/Users/guszty/.nuget/packages/microsoft.build.tasks.git/1.0.0/microsoft.build.tasks.git.1.0.0.nupkg.sha512",
+    "/Users/guszty/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/guszty/.nuget/packages/microsoft.sourcelink.common/1.0.0/microsoft.sourcelink.common.1.0.0.nupkg.sha512",
+    "/Users/guszty/.nuget/packages/microsoft.sourcelink.github/1.0.0/microsoft.sourcelink.github.1.0.0.nupkg.sha512",
+    "/Users/guszty/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/guszty/.nuget/packages/system.data.datasetextensions/4.5.0/system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
