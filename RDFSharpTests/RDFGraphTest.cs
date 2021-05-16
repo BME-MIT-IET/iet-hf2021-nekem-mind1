@@ -49,7 +49,7 @@ namespace RDFSharpTests
             var testGraph = new RDFGraph(defaultTriples);
             var old = new List<RDFTriple>(defaultTriples);
             old.Remove(defaultTriples[0]);
-            testGraph.RemoveTriplesBySubject(TestModelObject.subjectResources[0]);
+            testGraph.RemoveTriplesBySubject(TestModelObject.subRes[0]);
             var newList = new List<RDFTriple>();
 
             foreach (var triple in testGraph)
@@ -66,7 +66,7 @@ namespace RDFSharpTests
             var testGraph = new RDFGraph(defaultTriples);
             var old = new List<RDFTriple>(defaultTriples);
             old.Remove(defaultTriples[0]);
-            testGraph.RemoveTriplesByPredicate(TestModelObject.predicateResources[0]);
+            testGraph.RemoveTriplesByPredicate(TestModelObject.predRes[0]);
             var newList = new List<RDFTriple>();
 
             foreach (var triple in testGraph)
@@ -94,7 +94,7 @@ namespace RDFSharpTests
         {
             var testGraph = new RDFGraph(defaultTriples);
             var old = new List<RDFTriple>() { defaultTriples[0] };
-            var res = testGraph.SelectTriplesBySubject(TestModelObject.subjectResources[0]);
+            var res = testGraph.SelectTriplesBySubject(TestModelObject.subRes[0]);
             var newList = new List<RDFTriple>();
 
             foreach (var triple in res)
