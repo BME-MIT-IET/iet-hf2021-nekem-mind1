@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "E+3/pg46SLCbpyANcEXEIM4ZlqKmYFXNDWxzrKenP0EzVWLcv24BXUOJCYJFvqmj/KQ6WI5Lb5az0p3qr1YI0A==",
+  "dgSpecHash": "mjPVJCIn1Tqx6ZFy4UarlofiqyS7HAOMhVMQsmjWMp2h179/m4PeAcyfMefjzvNWaoynIovrCUHVfoOVvH0nuQ==",
   "success": true,
-  "projectFilePath": "C:\\Work\\IET\\Hazi2\\iet-hf2021-nekem-mind1\\RDFSharp\\RDFSharp.csproj",
+  "projectFilePath": "/Users/tothbence/Documents/iet-hf2021-nekem-mind1/RDFSharp/RDFSharp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\smodi\\.nuget\\packages\\microsoft.build.tasks.git\\1.0.0\\microsoft.build.tasks.git.1.0.0.nupkg.sha512",
-    "C:\\Users\\smodi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\smodi\\.nuget\\packages\\microsoft.sourcelink.common\\1.0.0\\microsoft.sourcelink.common.1.0.0.nupkg.sha512",
-    "C:\\Users\\smodi\\.nuget\\packages\\microsoft.sourcelink.github\\1.0.0\\microsoft.sourcelink.github.1.0.0.nupkg.sha512",
-    "C:\\Users\\smodi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\smodi\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+    "/Users/tothbence/.nuget/packages/microsoft.build.tasks.git/1.0.0/microsoft.build.tasks.git.1.0.0.nupkg.sha512",
+    "/Users/tothbence/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/tothbence/.nuget/packages/microsoft.sourcelink.common/1.0.0/microsoft.sourcelink.common.1.0.0.nupkg.sha512",
+    "/Users/tothbence/.nuget/packages/microsoft.sourcelink.github/1.0.0/microsoft.sourcelink.github.1.0.0.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/tothbence/.nuget/packages/system.data.datasetextensions/4.5.0/system.data.datasetextensions.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
